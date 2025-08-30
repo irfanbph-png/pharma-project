@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e0e7ff, #b1c6f7);
+  color: #1a202c;
+  margin: 0;
+  padding: 40px;
+}
+
+nav {
+  background-color: #2d3748;
+  padding: 15px 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+nav a {
+  color: #cbd5e0;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 700;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #63b3ed;
+}
+
+.section {
+  background-color: #ffffffee;
+  padding: 35px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(100, 116, 139, 0.15);
+  backdrop-filter: saturate(180%) blur(10px);
+}
+
+h1, h2 {
+  color: #2c5282;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-size: 1.3em;
+  color: #2a4365;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.profile-pic {
+  width: 160px;
+  border-radius: 50%;
+  float: right;
+  margin-left: 25px;
+  box-shadow: 0 10px 20px rgba(66, 153, 225, 0.3);
+}
+
+.project {
+  margin-bottom: 25px;
+  padding: 15px;
+  border-left: 5px solid #3182ce;
+  background: #e6f0ff;
+  border-radius: 6px;
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #2c5282;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1em;
+  color: #2d3748;
+}
+
+ul li {
+  margin-bottom: 18px;
+}
+
+a {
+  color: #3182ce;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
