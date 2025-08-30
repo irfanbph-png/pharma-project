@@ -1,53 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <Mohamed Irfan>My Personal Brand Website</MohamedIrfan>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background: #f7f7f7; }
-    nav { margin-bottom: 30px; }
-    nav a { margin: 0 15px; text-decoration: none; color: #333; font-weight: bold; }
-    section { background: #fff; border-radius: 8px; padding: 30px; margin-bottom: 20px; box-shadow: 0 2px 4px #ddd; }
-    img { max-width: 150px; border-radius: 50%; }
-    h2 { color: #007BFF; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohamed Irfan | Professional Portfolio & Personal Brand</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <nav>
     <a href="#home">Home</a>
     <a href="#about">About Me</a>
     <a href="#portfolio">Portfolio</a>
+    <a href="#blog">Projects & Posts</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <section id="home">
-    <h2>Home</h2>
-    <p><strong>Intro:</strong> Hello, I'm [Your Name], a passionate professional building my portfolio online.</p>
-    <p><strong>Tagline:</strong> [Your inspirational tagline]</p>
+  <section id="home" class="section">
+    <h1>Welcome, I'm Mohamed Irfan</h1>
+    <p class="tagline">Driven by creativity, professionalism, and impactful results</p>
   </section>
 
-  <section id="about">
+  <section id="about" class="section">
     <h2>About Me</h2>
-    <img src="[Link to your photo]" alt="Your Photo">
-    <p>[Your short bio goes here. Example: I am an enthusiast with a keen interest in technology, creativity, and growth.]</p>
+    <img src="[Your Photo URL]" alt="Mohamed Irfan" class="profile-pic" />
+    <p>I am a dedicated professional passionate about delivering creative solutions and driving success through expertise and innovation.</p>
   </section>
 
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <ul>
-      <li><strong>Project 1:</strong> [Project Name] - [Short Description].</li>
-      <li><strong>Achievement:</strong> [Your Achievement] - [Details].</li>
-      <!-- Add as many as you want -->
+  <section id="portfolio" class="section">
+    <h2>Portfolio Highlights</h2>
+    <div class="project">
+      <h3>Project Alpha</h3>
+      <p>Delivered a comprehensive solution to enhance client engagement and satisfaction.</p>
+    </div>
+    <div class="project">
+      <h3>Key Achievement</h3>
+      <p>Led initiatives that improved operational efficiency by 30% across multiple projects.</p>
+    </div>
+    <!-- Add more project divs as needed -->
+  </section>
+
+  <section id="blog" class="section">
+    <h2>Projects & Posts</h2>
+    <p>Stay tuned here for updates, articles, and insights from my journey and work:</p>
+    <ul id="posts-list">
+      <!-- Posts will be added here manually or dynamically -->
+      <li><strong>Launching New Initiative</strong> - Excited to announce a new project focused on sustainable growth. (August 2025)</li>
+      <li><strong>Creative Strategies for 2025</strong> - Sharing insights on innovative business strategies. (July 2025)</li>
+      <!-- Add new posts as <li> items -->
     </ul>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="section">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:[your@email.com]">[your@email.com]</a></p>
-    <p>
-      Social:
-      <a href="[your linkedin]">LinkedIn</a>,
-      <a href="[your twitter]">Twitter</a>
-      <!-- Add more as needed -->
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>Social: 
+      <a href="[Your LinkedIn URL]" target="_blank">LinkedIn</a> | 
+      <a href="[Your Twitter URL]" target="_blank">Twitter</a> | 
+      <a href="[Your GitHub URL]" target="_blank">GitHub</a>
     </p>
   </section>
 </body>
